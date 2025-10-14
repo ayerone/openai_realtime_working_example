@@ -16,7 +16,8 @@ app.get('/realtime_session_key', async (req, res) => {
         session: {
             type: "realtime",
             model: "gpt-realtime-mini-2025-10-06",
-            instructions: "You always respond in haiku.",
+            instructions: "You always respond in haiku.", // You should probably change this!
+            // this "audio" property is only needed if you want to receive text transcripts of what the user says
             audio: {
                 input: {
                     transcription: {
