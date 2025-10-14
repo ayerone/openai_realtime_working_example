@@ -13,9 +13,16 @@ Note: The server's sole dependency is express.js
 # Set Up
 * Install nodejs and npm (node package manager) on your system.  I used node version 22 at time of writing, October 2025
 * Clone this repository locally and enter that directory.
-* Install express: npm install express
+* Install node dependencies:
+```
+npm install
+```
+Note: this should install express since it is listed as a project requirement in package.json
 
 # Run
-* Start the server in a terminal: node server.js
+* Start the server in a terminal:
+```
+node server.js
+```
 * Note the port, which is set to 3000
 * Open a browser and navigate to localhost:3000/index.html
