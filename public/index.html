@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Demo</title>
+		<style>
+			.field {
+				margin-bottom: 1rem;
+			}
+			label {
+				display: block;
+				margin-bottom: 0.25rem;
+			}
+			textarea {
+				width: 100%;
+				white-space: pre-wrap;
+				field-sizing: content;
+			}
+			#smallBox {
+				height: 1.2rem;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Realtime Minimal Example</h1>
+		<h4 style="margin-bottom: 0">Status:</h4>
+		<div id="status">
+			Loading...
+		</div>
+		<br>
+		<div class="field">
+			<label for="smallBox">You Said</label>
+			<textarea id="smallBox" placeholder="Talking now...">Talk now...</textarea>
+		</div>
+
+		<div class="field">
+			<label for="largeBox">Realtime Model Said</label>
+			<textarea id="largeBox"></textarea>
+		</div>
+
+        <audio id="robot-audio"></audio>
+
+	<script type="module" src="index.js"></script>
+	</body>
+</html>
