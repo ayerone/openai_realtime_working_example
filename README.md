@@ -28,3 +28,6 @@ node server.js
 * Note the port, which is set to 3000
 * Open a browser and navigate to localhost:3000/index.html
 * Talk to the model!
+
+# Modifying
+(Probably) the first thing you want to do is go into server.js and search for "haiku".  These are the instructions provided to the realtime model for how to talk to the user. NOTE: if you edit server.js, those changes will not take effect while the server is running; you must stop the server and restart it to see your changes take effect.
