@@ -11,6 +11,7 @@ The project uses node (version 22) to run a local server, which:
 Note: The server's sole dependency is express.js
 
 # Set Up
+* Create an enviornment variable in your system (where the server will run) to store your OpenAI API key.  The variable should be called OPENAI_API_KEY (because that is how it is referenced in server.js)
 * Install nodejs and npm (node package manager) on your system.  I used node version 22 at time of writing, October 2025
 * Clone this repository locally and enter that directory.
 * Install node dependencies:
