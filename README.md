@@ -30,4 +30,5 @@ node server.js
 * Talk to the model!
 
 # Modifying
-(Probably) the first thing you want to do is go into server.js and search for "haiku".  These are the instructions provided to the realtime model for how to talk to the user. NOTE: if you edit server.js, those changes will not take effect while the server is running; you must stop the server and restart it to see your changes take effect.
+(Probably) the first thing you want to do is go into server.js and search for "haiku".  These are the instructions provided to the realtime model for how to talk to the user.
+Note for newbies: edits to server.js will not take effect while the server is running; you must stop the server and restart it to apply your changes.
