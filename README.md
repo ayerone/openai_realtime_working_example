@@ -2,7 +2,7 @@
 A basic working example of using OpenAI's realtime API to save you from having to pull your hair out.
 
 # Purpose
-The OpenAI realtime API exposes a great platform for creating speach-to-speech apps with low latency, which makes conversations with the AI feel more natural.  If you have tried to get started with this API, you might have found that there are some consistency/correctness issues with OpenAI's documentation.  You are not alone.  This project aims to be a bare-bones example of how to use the API to get you up and running, without the headaches.  We have attempted to make this project accessible to entry-level developers with very little experience.
+The OpenAI realtime API exposes a great platform for creating speach-to-speech apps with low latency, which makes conversations with the AI feel more natural.  This project aims to be a bare-bones example of how to use the API to get you up and running as quickly as possible.  We have attempted to make this project accessible to amateur developers with very little experience.
 
 # Stack
 The project uses HTML, plain javascript, and nodejs (version 22) to run a local server, which:
