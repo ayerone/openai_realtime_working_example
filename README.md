@@ -1,5 +1,5 @@
 # openai_realtime_working_example
-A basic working example of using OpenAI's realtime API to save you from having to pull your hair out.
+A basic working example of using OpenAI's realtime API (late 2025 at time of writing).
 
 # Purpose
 The OpenAI realtime API exposes a great platform for creating speach-to-speech apps with low latency, which makes conversations with the AI feel more natural.  This project aims to be a bare-bones example of how to use the API to get you up and running as quickly as possible.  We have attempted to make this project accessible to amateur developers with very little experience.
